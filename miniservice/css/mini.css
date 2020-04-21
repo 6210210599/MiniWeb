@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+#td-w{
+    width: 20%;  
+}
+
+.td-b{
+    border: none;
+}
+
+.td-r{
+    text-align: right;  
+}
+
+.au{
+    width: 100%;
+}

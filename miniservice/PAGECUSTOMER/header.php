@@ -1,4 +1,4 @@
-<?php
+<?php session_start(); 
 require "../connect_db/config.ini.php";
-require "menu/cusmenu.php";
+require "cusmenu.php";
 ?>

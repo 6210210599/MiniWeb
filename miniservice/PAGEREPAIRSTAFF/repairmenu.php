@@ -12,6 +12,7 @@
         <ul class="menu">
             <li class="logo"><a href="#">Mini Service</a></li>
             <li class="item"><a href="index.php">หน้าแรก</a></li>
+            <li class="item"><a href="video.php">วิดีโอการแก้ไขปัญหา</a></li>
             <li class="item"><a href="editprofile.php"><?php echo $_SESSION["emp_firstname"]." ".$_SESSION["emp_lastname"]; ?></a></li>
             <li class="item button"><a href="../index.php">ลงชื่อออก</a></li>
             <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>

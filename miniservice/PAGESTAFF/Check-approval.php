@@ -86,7 +86,8 @@ while($row=mysqli_fetch_assoc($result)){ ?>
 
 
 
-
+    <?php
+require "../footer.ini.php";
 
 
 

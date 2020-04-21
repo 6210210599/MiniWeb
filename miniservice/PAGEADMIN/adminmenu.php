@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-B">
+    <meta charset="utf8">
     <meta name="viewport" charset="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Computibio" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">

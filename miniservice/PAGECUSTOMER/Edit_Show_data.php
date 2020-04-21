@@ -11,10 +11,7 @@ $cus = mysqli_query($mysqli,"SELECT * FROM tblcustomer WHERE cus_id_card LIKE '%
     $cus_email = $cusrow["cus_email"];
     $cus_password = $cusrow["cus_password"];	
 ?>	
-  <div id="navbar2" style=border:2px;>
-			&nbsp;
-			ข้อมมูลลูกค้า<br>
-		</div>
+<h1><center>ข้อมูลลูกค้า</center></h1>
 		<br><br><br>
 			<center>
 			<table style="width:50%" >
@@ -24,6 +21,7 @@ $cus = mysqli_query($mysqli,"SELECT * FROM tblcustomer WHERE cus_id_card LIKE '%
 				</thead>
 				<tbody>
 					<tr><td>รหัสลูกค้า</td> <td><input type="text" name="cus_id" required value="<?php echo $cus_id ?>" disabled></td></tr>
+					<tr><td>&nbsp;</td> </tr>
 					<tr><td> เลขบัตรประชาชน</td> <td><input type="text" name="cus_id_card" required value="<?php echo $cus_id_card ?>"disabled></td></tr>
 					<tr><td>&nbsp;</td> </tr>
 					<tr><td> คำนำหน้าชื่อ </td> <td><input type="text" name="cus_prefix" required value="<?php echo $cus_prefix ?>"disabled></td></tr>

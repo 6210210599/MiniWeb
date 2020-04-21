@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <form name="frmSearch" method="post" action="login/checklogin.php">
-<body background="image/bg-index2.jpg">
+<body >
       
     <div class="login-wrapper">
 
         <div class="login-letf">
-            <img src="image/bg-index.jpg" alt="">
+            <img src="image/bg-index3.jpg" alt="">
             <div class="h1">เข้าสู่ระบบ</div>
         </div>
         <div class="login-rigth">
             <div class="h2">กรุณากรอกข้อมูล</div>
             <div class="from-group">
-                <input type="text" name="username" required placeholder="้เลขบัตรประชาชน">
+                <input type="text" name="username" required placeholder="ชื่อผู้ใช้">
             </div>
             <div class="from-group">
                 <input type="password" name="password" required placeholder="รหัสผ่าน">
@@ -28,7 +28,7 @@
             <div class="button-area">
                 <button class="btn btn-secondary" >เข้าสู่ระบบ</button>
                 </form>
-                <form name="frmregister" method="post" action="registeruser.php">
+                <form name="frmregister" method="post" action="PAGEINDEX/registeruser.php">
                 <button class="btn btn-primary">สมัครสมาชิก</button>
                 </form>
             </div>

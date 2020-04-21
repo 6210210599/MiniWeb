@@ -1,4 +1,4 @@
-<table style="width:100%" border="0px">
+<!--<table style="width:100%" border="0px">
 		<tr>
 			<td><center>
             MINI SERVICE<br>
@@ -7,7 +7,7 @@
     E-MAIL : MINISERVICE@gmail.com
 			</td>
 		</tr>
-</table>
+</table>-->
 
 </body>
 </html>

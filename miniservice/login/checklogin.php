@@ -12,8 +12,10 @@ if(!$row = $checkcus->fetch_assoc()){
         echo "<meta http-equiv='refresh'content='2;url=../index.php'>";
     }else{
         if($_POST['password'] == $row['emp_password']){
+            $_SESSION["emp_id"] = $row['emp_id'];
             $_SESSION["emp_id_card"] = $row['emp_id_card'];
             $_SESSION["emp_firstname"] = $row['emp_firstname'];
+            $_SESSION["position_id"] = $row['position_id'];
             $_SESSION["emp_lastname"] = $row['emp_lastname'];
             $_SESSION["userpassword"] = $row['emp_password'];
             echo "ถูกต้อง";
@@ -32,16 +34,17 @@ if(!$row = $checkcus->fetch_assoc()){
 
 }else{
     if($_POST['password'] == $row['cus_password']){
+        $_SESSION["cus_id"] = $row['cus_id'];
         $_SESSION["cus_id_card"] = $row['cus_id_card'];
         $_SESSION["cus_firstname"] = $row['cus_firstname'];
         $_SESSION["cus_lastname"] = $row['cus_lastname'];
         $_SESSION["userpassword"] = $row['cus_password'];
         echo "ถูกต้อง";
-        echo "<meta http-equiv='refresh'content='0;url=PAGECUSTOMER/index.php'>";
+        echo "<meta http-equiv='refresh'content='0;url=../PAGECUSTOMER/index.php'>";
             
     }else{
         echo "รหัสผ่านไม่ถูกต้อง";
-        echo "<meta http-equiv='refresh'content='2;url=index.php'>";
+        echo "<meta http-equiv='refresh'content='2;url=../index.php'>";
     }
 }
 

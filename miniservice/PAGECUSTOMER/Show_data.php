@@ -14,7 +14,7 @@ while($show = mysqli_fetch_assoc($result)){
 
 		<br><br><br>
 			<center>
-			<table style="width:50%" >
+			<table style="width:50%" border="0px">
 				<thead>
 					<td> <H3>ข้อมูลลูกค้า<hr /></H3> </td>
 				</thead>

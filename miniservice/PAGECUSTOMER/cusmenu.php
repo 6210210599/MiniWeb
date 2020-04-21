@@ -1,6 +1,4 @@
-<?php session_start(); 
 
-?>
 <html lang="en">
 <head>
     <meta charset="UTF-B">
@@ -15,6 +13,7 @@
             <li class="logo"><a href="#">Mini Service</a></li>
             <li class="item"><a href="index.php">หน้าแรก</a></li>
             <li class="item"><a href="insertrepair.php">แจ้งซ่อม</a></li>
+            <li class="item"><a href="Question.php">คำถาม</a></li>
             <li class="item"><a href="Show_data.php"><?php echo $_SESSION["cus_firstname"]." ".$_SESSION["cus_lastname"]; ?></a></li> <!-- ไป หน้าแก้ไขข้อมูลส่วนตัว-->
             <li class="item button"><a href="../index.php">ลงชื่อออก</a></li>
             <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>

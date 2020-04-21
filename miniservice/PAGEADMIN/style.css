@@ -1,0 +1,85 @@
+body {
+	background-size: cover;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+
+.card {
+	display: inline-block;
+	max-width: 200px;
+	/*min-width: 300px;*/
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.card-banner {
+	margin-bottom: 5px;
+}
+
+.card-title {
+	font-weight: 400px;
+}
+
+.form {
+	max-width: 400px;
+}
+
+.form .wrapper, .form .buttons {
+	clear: both;
+}
+
+.form .wrapper .label,
+.form .wrapper .input {
+	float: left;
+	text-align: left;
+}
+
+.form .wrapper .label {
+	min-width: 200px;
+	max-width: 200px;
+	font-weight: bold;
+}
+
+.form .wrapper .input {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.form .buttons {
+	text-align: center;
+}
+
+
+#navbar2{
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 35px;
+	height: auto;
+	padding: 10px ;
+	color: #FF6600; text-shadow: black 0.1em 0.1em 0.1em;
+	font-weight: 1000;
+	text-decoration: underline ;
+}	
+
+#navbar3{
+	margin: 0 auto;
+	background: black;
+	text-align: center;
+	font-size: 17px;
+	height: auto;
+	padding: 10px ;
+	color: white; text-shadow: #FF6600 0.1em 0.1em 0.2em;
+	border: 0px;
+	border-style: solid;
+	border-color: black;
+}
+

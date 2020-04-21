@@ -14,7 +14,7 @@ $job = mysqli_query($mysqli,
 		$accessory = $jobrow["accessory"];
 		$symptoms = $jobrow["symptoms"];
 		$image_accessory = $jobrow["image_accessory"];
-		$status_job = $jobrow["status_job"];
+		$status_job = $jobrow["status_id"];
 		$date_jobstart = $jobrow["date_jobstart"];
 	}
 $cus = mysqli_query($mysqli,
